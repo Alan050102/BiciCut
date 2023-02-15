@@ -1,5 +1,10 @@
 <?php  
 
+//Conexion de php
+<Location "/">
+  AllowMethods GET POST OPTIONS
+</Location>
+
 // Formato de la fecha y hora de envio del formulario
 date_default_timezone_set('America/Mexico_City');
 $fechaActual = date("d/m/Y");
