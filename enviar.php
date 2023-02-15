@@ -16,7 +16,7 @@ $mensaje = $_POST['mensaje'];
 //$archivo = $_FILES['archivo'];
 
 // Datos para el correo
-$destinatario = "bicicut2023@gmail.com";
+$destinatario = "alan.nuno4804@alumnos.udg.mx";
 $asunto = "Se ha presentado un problema";
 
 // Datos que se enviaran en el correo
